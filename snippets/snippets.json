@@ -1,6 +1,7 @@
 {
    "DEF TEMP-TABLE NO-UNDO": {
       "prefix": "dtt",
+      "scope": "abl",
       "description": "Define a temp-table",
       "body": [
           "DEFINE TEMP-TABLE ${1:ttName} NO-UNDO",
@@ -10,6 +11,7 @@
    },
    "PROCEDURE": {
       "prefix": "pro",
+      "scope": "abl",
       "description": "Define a procedure",
       "body": [
          "/*------------------------------------------------------------------------------",
@@ -24,6 +26,7 @@
    },
    "FUNCTION": {
       "prefix": "func",
+      "scope": "abl",
       "description": "Define a function",
       "body": [
          "/*------------------------------------------------------------------------------",
@@ -40,6 +43,7 @@
    },
    "DEF VAR AS CHAR NO-UNDO": {
       "prefix": "dvch",
+      "scope": "abl",
       "description": "Define variable as character no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS CHARACTER NO-UNDO."
@@ -47,6 +51,7 @@
    },
    "DEF VAR AS INT64 NO-UNDO": {
       "prefix": "dvin",
+      "scope": "abl",
       "description": "Define variable as int64 no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS INT64 NO-UNDO."
@@ -54,6 +59,7 @@
    },
    "DEF VAR AS HANDLE NO-UNDO": {
       "prefix": "dvhn",
+      "scope": "abl",
       "description": "Define variable as handle no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS HANDLE NO-UNDO."
@@ -61,6 +67,7 @@
    },
    "DEF VAR AS DATE NO-UNDO": {
       "prefix": "dvda",
+      "scope": "abl",
       "description": "Define variable as date no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS DATE NO-UNDO."
@@ -68,6 +75,7 @@
    },
    "DEF VAR AS DECIMAL NO-UNDO": {
       "prefix": "dvde",
+      "scope": "abl",
       "description": "Define variable as decimal no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS DECIMAL NO-UNDO."
@@ -75,6 +83,7 @@
    },
    "DEF VAR AS DATETIME NO-UNDO": {
       "prefix": "dvdt",
+      "scope": "abl",
       "description": "Define variable as datetime no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS DATETIME NO-UNDO."
@@ -82,6 +91,7 @@
    },
    "DEF VAR AS LOGICAL NO-UNDO": {
       "prefix": "dvlg",
+      "scope": "abl",
       "description": "Define variable as logical no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS LOGICAL NO-UNDO."
@@ -89,6 +99,7 @@
    },
    "DEF VAR AS LONGCHAR NO-UNDO": {
       "prefix": "dvlc",
+      "scope": "abl",
       "description": "Define variable as longchar no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS LONGCHAR NO-UNDO."
@@ -96,6 +107,7 @@
    },
    "DEF VAR AS MEMPTR NO-UNDO": {
       "prefix": "dvmp",
+      "scope": "abl",
       "description": "Define variable as memptr no-undo",
       "body":[
          "DEFINE VARIABLE ${1:varName} AS MEMPTR NO-UNDO."
@@ -103,6 +115,7 @@
    },
    "DEF INPUT PARAM AS CHAR NO-UNDO": {
       "prefix": "ipch",
+      "scope": "abl",
       "description": "Define input parameter as character no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS CHARACTER NO-UNDO."
@@ -110,6 +123,7 @@
    },
    "DEF INPUT PARAM AS INT64 NO-UNDO": {
       "prefix": "ipin",
+      "scope": "abl",
       "description": "Define input parameter as int64 no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS INT64 NO-UNDO."
@@ -117,6 +131,7 @@
    },
    "DEF INPUT PARAM AS HANDLE NO-UNDO": {
       "prefix": "iphn",
+      "scope": "abl",
       "description": "Define input parameter as handle no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS HANDLE NO-UNDO."
@@ -124,6 +139,7 @@
    },
    "DEF INPUT PARAM AS DATE NO-UNDO": {
       "prefix": "ipda",
+      "scope": "abl",
       "description": "Define input parameter as date no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS DATE NO-UNDO."
@@ -131,6 +147,7 @@
    },
    "DEF INPUT PARAM AS DECIMAL NO-UNDO": {
       "prefix": "ipde",
+      "scope": "abl",
       "description": "Define input parameter as decimal no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS DECIMAL NO-UNDO."
@@ -138,6 +155,7 @@
    },
    "DEF INPUT PARAM AS DATETIME NO-UNDO": {
       "prefix": "ipdt",
+      "scope": "abl",
       "description": "Define input parameter as datetime no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS DATETIME NO-UNDO."
@@ -145,6 +163,7 @@
    },
    "DEF INPUT PARAM AS LOGICAL NO-UNDO": {
       "prefix": "iplg",
+      "scope": "abl",
       "description": "Define input parameter as logical no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS LOGICAL NO-UNDO."
@@ -152,6 +171,7 @@
    },
    "DEF INPUT PARAM AS LONGCHAR NO-UNDO": {
       "prefix": "iplc",
+      "scope": "abl",
       "description": "Define input parameter as longchar no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS LONGCHAR NO-UNDO."
@@ -159,6 +179,7 @@
    },
    "DEF INPUT PARAM AS MEMPTR NO-UNDO": {
       "prefix": "ipmp",
+      "scope": "abl",
       "description": "Define input parameter as memptr no-undo",
       "body":[
          "DEFINE INPUT  PARAMETER ${1:varName} AS MEMPTR NO-UNDO."
@@ -166,6 +187,7 @@
    },
    "DEF OUTPUT PARAM AS CHAR NO-UNDO": {
       "prefix": "opch",
+      "scope": "abl",
       "description": "Define output parameter as character no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS CHARACTER NO-UNDO."
@@ -173,6 +195,7 @@
    },
    "DEF OUTPUT PARAM AS INT64 NO-UNDO": {
       "prefix": "opin",
+      "scope": "abl",
       "description": "Define output parameter as int64 no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS INT64 NO-UNDO."
@@ -180,6 +203,7 @@
    },
    "DEF OUTPUT PARAM AS HANDLE NO-UNDO": {
       "prefix": "ophn",
+      "scope": "abl",
       "description": "Define output parameter as handle no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS HANDLE NO-UNDO."
@@ -187,6 +211,7 @@
    },
    "DEF OUTPUT PARAM AS DATE NO-UNDO": {
       "prefix": "opda",
+      "scope": "abl",
       "description": "Define output parameter as date no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS DATE NO-UNDO."
@@ -194,6 +219,7 @@
    },
    "DEF OUTPUT PARAM AS DECIMAL NO-UNDO": {
       "prefix": "opde",
+      "scope": "abl",
       "description": "Define output parameter as decimal no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS DECIMAL NO-UNDO."
@@ -201,6 +227,7 @@
    },
    "DEF OUTPUT PARAM AS DATETIME NO-UNDO": {
       "prefix": "opdt",
+      "scope": "abl",
       "description": "Define output parameter as datetime no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS DATETIME NO-UNDO."
@@ -208,6 +235,7 @@
    },
    "DEF OUTPUT PARAM AS LOGICAL NO-UNDO": {
       "prefix": "oplg",
+      "scope": "abl",
       "description": "Define output parameter as logical no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS LOGICAL NO-UNDO."
@@ -215,6 +243,7 @@
    },
    "DEF OUTPUT PARAM AS LONGCHAR NO-UNDO": {
       "prefix": "oplc",
+      "scope": "abl",
       "description": "Define output parameter as longchar no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS LONGCHAR NO-UNDO."
@@ -222,6 +251,7 @@
    },
    "DEF OUTPUT PARAM AS MEMPTR NO-UNDO": {
       "prefix": "opmp",
+      "scope": "abl",
       "description": "Define output parameter as memptr no-undo",
       "body":[
          "DEFINE OUTPUT PARAMETER ${1:varName} AS MEMPTR NO-UNDO."
@@ -229,6 +259,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS CHAR NO-UNDO": {
       "prefix": "iopch",
+      "scope": "abl",
       "description": "Define input-output parameter as character no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS CHARACTER NO-UNDO."
@@ -236,6 +267,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS INT64 NO-UNDO": {
       "prefix": "iopin",
+      "scope": "abl",
       "description": "Define input-output parameter as int64 no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS INT64 NO-UNDO."
@@ -243,6 +275,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS HANDLE NO-UNDO": {
       "prefix": "iophn",
+      "scope": "abl",
       "description": "Define input-output parameter as handle no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS HANDLE NO-UNDO."
@@ -250,6 +283,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS DATE NO-UNDO": {
       "prefix": "iopda",
+      "scope": "abl",
       "description": "Define input-output parameter as date no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS DATE NO-UNDO."
@@ -257,6 +291,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS DECIMAL NO-UNDO": {
       "prefix": "iopde",
+      "scope": "abl",
       "description": "Define input-output parameter as decimal no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS DECIMAL NO-UNDO."
@@ -264,6 +299,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS DATETIME NO-UNDO": {
       "prefix": "iopdt",
+      "scope": "abl",
       "description": "Define input-output parameter as datetime no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS DATETIME NO-UNDO."
@@ -271,6 +307,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS LOGICAL NO-UNDO": {
       "prefix": "ioplg",
+      "scope": "abl",
       "description": "Define input-output parameter as logical no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS LOGICAL NO-UNDO."
@@ -278,6 +315,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS LONGCHAR NO-UNDO": {
       "prefix": "ioplc",
+      "scope": "abl",
       "description": "Define input-output parameter as longchar no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS LONGCHAR NO-UNDO."
@@ -285,6 +323,7 @@
    },
    "DEF INPUT-OUTPUT PARAM AS MEMPTR NO-UNDO": {
       "prefix": "iopmp",
+      "scope": "abl",
       "description": "Define input-output parameter as memptr no-undo",
       "body":[
          "DEFINE INPUT-OUTPUT PARAMETER ${1:varName} AS MEMPTR NO-UNDO."
@@ -292,6 +331,7 @@
    },  
    "DEFINE STREAM": {
       "prefix": "ds",
+      "scope": "abl",
       "description": "Define stream",
       "body":[
          "DEFINE STREAM ${1:streamName}."
@@ -299,6 +339,7 @@
    },  
    "DEFINE BUFFER": {
       "prefix": "dvb",
+      "scope": "abl",
       "description": "Define buffer BufName FOR TableName.",
       "body":[
          "DEFINE BUFFER ${1:bufferName} FOR ${2:tableName}."
@@ -306,6 +347,7 @@
    },  
    "DEFINE PARAMETER BUFFER": {
       "prefix": "dpb",
+      "scope": "abl",
       "description": "Define parameter buffer BufName FOR bufName.",
       "body":[
          "DEFINE PARAMETER BUFFER ${1:bufferName} FOR ${1:bufferName}."
@@ -313,6 +355,7 @@
    },  
    "FIND FIRST WHERE NO-LOCK.": {
       "prefix": "ffwn",
+      "scope": "abl",
       "description": "find first where no-lock.",
       "body":[
          "FIND FIRST ${1:table} WHERE ${2:where} NO-LOCK NO-ERROR."
@@ -320,6 +363,7 @@
    },
    "MESSAGE VIEW-AS ALERT-BOX.": {
       "prefix": "mes",
+      "scope": "abl",
       "description": "message view-as alert-box info buttons ok.",
       "body":[
          "MESSAGE ${1:message}",
@@ -328,6 +372,7 @@
    },
    "vI = vI + 1.": {
       "prefix": "i++",
+      "scope": "abl",
       "description": "Increase the variable by 1",
       "body":[
          "$1 = $1 + 1."
@@ -335,6 +380,7 @@
    },
    "vI = vI - 1.": {
       "prefix": "i--",
+      "scope": "abl",
       "description": "Decrease the variable by 1",
       "body":[
          "$1 = $1 - 1."
@@ -342,6 +388,7 @@
    },
    "&Global-define": {
       "prefix": "&gl",
+      "scope": "abl",
       "description": "&GLOBAL-DEFINE",
       "body":[
          "&GLOBAL-DEFINE $1"
@@ -349,6 +396,7 @@
    },
    "&Scoped-define": {
       "prefix": "&sc",
+      "scope": "abl",
       "description": "&SCOPED-DEFINE",
       "body":[
          "&SCOPED-DEFINE $1"
@@ -356,6 +404,7 @@
    },
    "IF THEN": {
       "prefix": "if",
+      "scope": "abl",
       "description": "IF THEN ELSE",
       "body":[
          "IF $1 THEN DO:",
@@ -365,6 +414,7 @@
    },
    "IF THEN ELSE": {
       "prefix": "ife",
+      "scope": "abl",
       "description": "IF THEN ELSE",
       "body":[
          "IF $1 THEN DO:",
@@ -377,6 +427,7 @@
    },
    "FOR EACH": {
       "prefix": "fore",
+      "scope": "abl",
       "description": "FOR EACH WHERE NO-LOCK",
       "body":[
          "FOR EACH ${1:bufferName} WHERE ${2:TRUE} NO-LOCK:",
@@ -386,6 +437,7 @@
    },
    "FOR FIRST": {
       "prefix": "forf",
+      "scope": "abl",
       "description": "FOR FIRST WHERE NO-LOCK",
       "body":[
          "FOR FIRST ${1:bufferName} WHERE ${2:TRUE} NO-LOCK:",
@@ -395,6 +447,7 @@
    },
    "FOR LAST": {
       "prefix": "forl",
+      "scope": "abl",
       "description": "FOR LAST WHERE NO-LOCK",
       "body":[
          "FOR LAST ${1:bufferName} WHERE ${2:TRUE} NO-LOCK:",
@@ -404,6 +457,7 @@
    },
    "DISABLE TRIGGERS": {
       "prefix": "dtl",
+      "scope": "abl",
       "description": "DISABLE TRIGGERS FOR LOAD",
       "body":[
          "DISABLE TRIGGERS FOR LOAD OF ${1:tableName}."
@@ -411,6 +465,7 @@
    },
    "DEFINE CLASS": {
       "prefix": "class",
+      "scope": "abl",
       "description": "DEFINE CLASS",
       "body":[
          "CLASS ${1:className} FINAL:\n",
@@ -429,6 +484,7 @@
    },
    "DEFINE METHOD": {
       "prefix": "meth",
+      "scope": "abl",
       "description": "METHOD PRIVATE",
       "body":[
          "/*---------------------------------------------------------------------------",
@@ -436,13 +492,14 @@
          "  Parameters: ",
          "  Notes:      ",
          "---------------------------------------------------------------------------*/",
-         "METHOD PRIVATE ${1:CARACTER} ${2:methodName} ( ):\n",
+         "METHOD PRIVATE ${1:CHARACTER} ${2:methodName} ( ):\n",
          "\t$0\n",
          "END METHOD."
       ]
    },
    "DEFINE PROPERTY": {
       "prefix": "prop",
+      "scope": "abl",
       "description": "DEFINE PRIVATE PROPERTY",
       "body":[
          "/*---------------------------------------------------------------------------",
